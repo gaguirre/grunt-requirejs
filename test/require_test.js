@@ -80,7 +80,7 @@ exports['require'] = {
     var isCustom = rjsversion.isCustomLibrary();
 
     test.equal((typeof rjs === 'function'), true, 'Default library is used if no config given');
-    test.equal(version, '2.1.4', 'Version is current');
+    test.equal(version, '2.1.5', 'Version is current');
     test.equal(isCustom, false, 'Default library is used if no config given');
 
     test.done();
